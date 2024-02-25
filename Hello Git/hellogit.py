@@ -1,2 +1,2 @@
-print("New Hello GitHub Desktop!")
-# Prueba de commit con GitHub Desktop
+print("New Hello GitHub Desktop v2!")
+# Prueba de commit con GitKraken
