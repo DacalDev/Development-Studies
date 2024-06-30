@@ -26,10 +26,10 @@ age = 37
 is_married = True
 skills = ['Python', 'HTML', 'CSS', 'JS']
 person_info = {
-    "Nombre" : first_name,
-    'Apellido' : last_name,
-    'Provincia' : country,
-    'Ciudad' : city
+	"Nombre" : first_name,
+	'Apellido' : last_name,
+	'Provincia' : country,
+	'Ciudad' : city
 }
 
 print("Nombre: ", first_name)
@@ -49,17 +49,17 @@ print("Informacion personal: ", person_info)
 2. Using the len() built-in function, find the length of your first name
 3. Compare the length of your first name and your last name
 4. Declare 5 as num_one and 4 as num_two
-   Add num_one and num_two and assign the value to a variable total
-   Subtract num_two from num_one and assign the value to a variable diff
-   Multiply num_two and num_one and assign the value to a variable product
-   Divide num_one by num_two and assign the value to a variable division
-   Use modulus division to find num_two divided by num_one and assign the value to a variable remainder
-   Calculate num_one to the power of num_two and assign the value to a variable exp
-   Find floor division of num_one by num_two and assign the value to a variable floor_division
+	Add num_one and num_two and assign the value to a variable total
+	Subtract num_two from num_one and assign the value to a variable diff
+	Multiply num_two and num_one and assign the value to a variable product
+	Divide num_one by num_two and assign the value to a variable division
+	Use modulus division to find num_two divided by num_one and assign the value to a variable remainder
+	Calculate num_one to the power of num_two and assign the value to a variable exp
+	Find floor division of num_one by num_two and assign the value to a variable floor_division
 5. The radius of a circle is 30 meters.
-   Calculate the area of a circle and assign the value to a variable name of area_of_circle
-   Calculate the circumference of a circle and assign the value to a variable name of circum_of_circle
-   Take radius as user input and calculate the area.
+	Calculate the area of a circle and assign the value to a variable name of area_of_circle
+	Calculate the circumference of a circle and assign the value to a variable name of circum_of_circle
+	Take radius as user input and calculate the area.
 6. Use the built-in input function to get first name, last name, country and age from a user and store the value to their corresponding variable names
 7. Run help('keywords') in Python shell or in your file to check for the Python reserved words or keywords
 
