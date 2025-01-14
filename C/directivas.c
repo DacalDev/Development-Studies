@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   directivas.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: jdacal-a <jdacal-a@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/01/14 22:23:01 by jdacal-a          #+#    #+#             */
+/*   Updated: 2025/01/14 22:23:01 by jdacal-a         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 /*Directivas del Preprocesador*/
 
 #include <stdio.h> //incluye un archivo de cabecera estándar de entrada y salida
