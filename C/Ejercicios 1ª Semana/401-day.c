@@ -5,19 +5,21 @@ int	main(void)
 	int		suma;
 	int		resta;
 	int		multiplicacion;
-	//float	division;
+	float	division;
 	int		a;
 	int		b;
 
 	printf("Introduce el primer valor:\n");
-	if (scanf("%d", &a) != 1) {
+	if (scanf("%d", &a) != 1)
+	{
 		printf("Error en la entrada.\n");
-		return 1;
+		return (1);
 	}
 	printf("Introduce el segundo valor:\n");
-	if (scanf("%d", &b) != 1) {
+	if (scanf("%d", &b) != 1)
+	{
 		printf("Error en la entrada.\n");
-		return 1;
+		return (1);
 	}
 	suma = a+b;
 	resta = a-b;
@@ -25,5 +27,14 @@ int	main(void)
 	printf("Suma: %d\n", suma);
 	printf("Resta: %d\n", resta);
 	printf("Multiplicación: %d\n", multiplicacion);
+	if (b != 0)
+	{
+		division = (float)a / (float)b;
+		printf("División: %.2f\n", division);
+	}
+	else
+	{
+		printf("Error: División por cero no es posible.\n");
+	}
 	return (0);
 }
